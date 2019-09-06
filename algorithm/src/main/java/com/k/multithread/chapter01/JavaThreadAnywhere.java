@@ -1,6 +1,5 @@
 package com.k.multithread.chapter01;
 
-import javax.annotation.Resource;
 
 public class JavaThreadAnywhere {
     public static void main(String[] args) {
