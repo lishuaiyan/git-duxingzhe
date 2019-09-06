@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42459f79-e887-4b03-8f63-a87caf624bbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/k/multithread/chapter01/FileDownloaderApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter01/FileDownloaderAPP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learning-algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/k/multithread/chapter01/JavaThreadAnywhere.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/k/multithread/chapter01/SimpleTimer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/k/multithread/chapter01/ThreadCreationCmp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/k/multithread/chapter01/WelcomeApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/k/multithread/chapter01/WelcomeApp1.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/algorithm/chapter01/BinarySearch.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/k/multithread/util" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/k/algorithm/chapter01" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,6 +57,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\9E\git\git-duxingzhe\algorithm\src\main\java\com\k\algorithm\chapter01" />
+      <recent name="D:\work\9E\git\git-duxingzhe\algorithm\src\main\java\com\k\multithread\util" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="J:\algorithm\src\com\k\algorithm\chapter01" />
     </key>
@@ -181,7 +166,7 @@
       <workItem from="1567438854393" duration="169000" />
       <workItem from="1567690464581" duration="2086000" />
       <workItem from="1567729891756" duration="1888000" />
-      <workItem from="1567743823246" duration="3191000" />
+      <workItem from="1567743823246" duration="3609000" />
     </task>
     <servers />
   </component>
