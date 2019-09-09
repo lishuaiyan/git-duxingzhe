@@ -12,7 +12,8 @@ http://www.broadview.com.cn/31065
 */
 package com.k.multithread.util.stf;
 
-import io.github.viscent.mtia.util.Tools;
+
+import com.k.multithread.util.Tools;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

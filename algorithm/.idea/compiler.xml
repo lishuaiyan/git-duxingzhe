@@ -9,8 +9,8 @@
         <module name="learning-algorithm" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="learning-algorithm" target="6" />
+    <bytecodeTargetLevel target="8">
+      <module name="learning-algorithm" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
