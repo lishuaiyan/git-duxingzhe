@@ -8,6 +8,11 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter02/ThreadJoinVisibility.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter02/ThreadStartVisibility.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter02/VisibilityDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter03/ExplicitLockInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter03/LockbasedCircularSeqGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter03/ReadWriteLockDowngrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter03/ReadWriteLockUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
