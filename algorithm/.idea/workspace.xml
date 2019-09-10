@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42459f79-e887-4b03-8f63-a87caf624bbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter02/CircularSeqGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter02/RaceConditionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter02/RequestIDGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/learning-algorithm.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter02/AtomicityExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter02/JITRecorderingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter02/SpeculativeLoadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter02/ThreadJoinVisibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter02/ThreadStartVisibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter02/VisibilityDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learning-algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/k/multithread/util/DESEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/util/DESEncryption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/k/multithread/util/stf/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/util/stf/TestRunner.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,13 +84,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RaceConditionDemo">
-    <configuration name="JavaThreadAnywhere" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.k.multithread.chapter01.JavaThreadAnywhere" />
+  <component name="RunManager" selected="Application.JITRecorderingDemo">
+    <configuration name="JITRecorderingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.k.multithread.chapter02.JITRecorderingDemo" />
       <module name="learning-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.k.multithread.chapter01.*" />
+          <option name="PATTERN" value="com.k.multithread.chapter02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.k.multithread.chapter01.SimpleTimer" />
+    <configuration name="ThreadJoinVisibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.k.multithread.chapter02.ThreadJoinVisibility" />
       <module name="learning-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.k.multithread.chapter01.*" />
+          <option name="PATTERN" value="com.k.multithread.chapter02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadCreationCmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.k.multithread.chapter01.ThreadCreationCmp" />
+    <configuration name="ThreadStartVisibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.k.multithread.chapter02.ThreadStartVisibility" />
       <module name="learning-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.k.multithread.chapter01.*" />
+          <option name="PATTERN" value="com.k.multithread.chapter02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WelcomeApp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.k.multithread.chapter01.WelcomeApp1" />
+    <configuration name="VisibilityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.k.multithread.chapter02.VisibilityDemo" />
       <module name="learning-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.k.multithread.chapter01.*" />
+          <option name="PATTERN" value="com.k.multithread.chapter02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JITRecorderingDemo" />
+        <item itemvalue="Application.ThreadJoinVisibility" />
+        <item itemvalue="Application.ThreadStartVisibility" />
+        <item itemvalue="Application.VisibilityDemo" />
         <item itemvalue="Application.RaceConditionDemo" />
-        <item itemvalue="Application.JavaThreadAnywhere" />
-        <item itemvalue="Application.SimpleTimer" />
-        <item itemvalue="Application.WelcomeApp1" />
-        <item itemvalue="Application.ThreadCreationCmp" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +175,7 @@
       <workItem from="1567729891756" duration="1888000" />
       <workItem from="1567743823246" duration="3800000" />
       <workItem from="1567987601745" duration="3088000" />
+      <workItem from="1568069868900" duration="6206000" />
     </task>
     <servers />
   </component>
