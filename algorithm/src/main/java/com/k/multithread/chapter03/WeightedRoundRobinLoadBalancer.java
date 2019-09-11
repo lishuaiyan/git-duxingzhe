@@ -9,7 +9,7 @@ public class WeightedRoundRobinLoadBalancer extends AbstractLoadBalancer {
         super(candidate);
     }
     //通过该静态方法创建该类的实例
-    public static LoadBalancer newInsatnce(Candidate candidate) {
+    public static LoadBalancer newInsatnce(Candidate candidate) throws Exception {
         WeightedRoundRobinLoadBalancer lb = new WeightedRoundRobinLoadBalancer(candidate);
         lb.init();
         return lb;

@@ -9,6 +9,8 @@ public abstract class AbstractLoadBalancer implements LoadBalancer {
     private final static Logger LOGGER = Logger.getAnonymousLogger();
     //使用volatile变量替代锁（有条件替代）
     protected final Random random;
+    protected Candidate candidate;
+
     //心跳线程
     private Thread heartbeatThread;
     public AbstractLoadBalancer(Candidate candidate) {
