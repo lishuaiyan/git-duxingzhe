@@ -1,6 +1,7 @@
 package com.k.multithread.chapter04;
 
 import com.k.multithread.util.Debug;
+import com.k.multithread.util.Tools;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.BufferedInputStream;
@@ -8,6 +9,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.ByteBuffer;
+import java.nio.channels.Channels;
+import java.nio.channels.ReadableByteChannel;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
@@ -29,7 +33,7 @@ public class DownloadTask implements Runnable {
     }
 
     //对指定的URL发起HTTP分段下载请求
-    private static InputStream issueRequest(URL requestURL, long lowerBound, long upperBound) {
+    private static InputStream issueRequest(URL requestURL, long lowerBound, long upperBound) throws IOException {
         Thread me = Thread.currentThread();
         Debug.info(me + "->[" + lowerBound + "," + upperBound + "]");
         final HttpURLConnection conn;
@@ -61,7 +65,34 @@ public class DownloadTask implements Runnable {
 
         in = new BufferedInputStream(conn.getInputStream()) {
             @Override
-            public void close() throws
+            public void close() throws IOException {
+                try {
+                    super.close();
+                } finally {
+                    conn.disconnect();
+                }
+            }
+        };
+        return in;
+    }
+    @Override
+    public void run() {
+        if (cancelFlag.get()) {
+            return ;
+        }
+        ReadableByteChannel channel = null;
+        try {
+            channel = Channels.newChannel(issueRequest(requestURL,lowerBound,upperBound));
+            ByteBuffer buf = ByteBuffer.allocate(1024);
+            while (!cancelFlag.get() && channel.read(buf) > 0) {
+                //将从网络读取的数据写入缓冲区
+                xbuf.write(buf);
+                buf.clear();
+            }
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        } finally {
+            Tools.silentClose(channel, xbuf);
         }
     }
 }

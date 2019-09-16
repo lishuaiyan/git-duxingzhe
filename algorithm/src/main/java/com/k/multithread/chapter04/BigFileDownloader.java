@@ -21,7 +21,7 @@ public class BigFileDownloader {
     protected final Storage storage;
     protected final AtomicBoolean taskCanceled = new AtomicBoolean(false);
 
-    public BigFileDownloader(String strURL) throws MalformedURLException {
+    public BigFileDownloader(String strURL) throws Exception {
         requestURL = new URL(strURL);
         //获取待下载资源的大小（单位：字节）
         fileSize = retieveFileSize(requestURL);
@@ -55,7 +55,7 @@ public class BigFileDownloader {
         return size;
     }
 
-}
+
 
     /**
      * 下载指定的文件
@@ -64,7 +64,7 @@ public class BigFileDownloader {
      * @param reportInterval 下载进度报告周期
      * @throw Exception
      */
-    public void download(int taskCount, long reportInterval) {
+    public void download(int taskCount, long reportInterval) throws InterruptedException {
         long chunkSizePerThread = fileSize / taskCount;
         //下载数据段的起始字节数
         long lowerBound = 0;
