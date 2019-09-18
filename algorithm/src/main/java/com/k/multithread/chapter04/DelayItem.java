@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicLong;
 public class DelayItem {
     private long timeStamp;
     private AtomicInteger sampleCount = new AtomicInteger(0);
-    private AtomicLong totalDalay = new AtomicLong(0);
+    private AtomicLong totalDelay = new AtomicLong(0);
 
     public DelayItem(long timeStamp) {
         this.timeStamp = timeStamp;
@@ -26,12 +26,12 @@ public class DelayItem {
         this.timeStamp = timeStamp;
     }
 
-    public AtomicLong getTotalDalay() {
-        return totalDalay;
+    public AtomicLong getTotalDelay() {
+        return totalDelay;
     }
 
-    public void setTotalDalay(AtomicLong totalDalay) {
-        this.totalDalay = totalDalay;
+    public void setTotalDalay(AtomicLong totalDelay) {
+        this.totalDelay = totalDelay;
     }
 }
 

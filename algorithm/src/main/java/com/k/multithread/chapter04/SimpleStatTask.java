@@ -7,6 +7,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+/**
+ * 单线程方式实现的统计程序
+ */
 public class SimpleStatTask extends AbstractStatTask {
     private final InputStream in;
 
