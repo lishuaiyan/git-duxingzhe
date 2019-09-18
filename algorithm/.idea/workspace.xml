@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42459f79-e887-4b03-8f63-a87caf624bbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter04/AbstractStatTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter04/DownloadBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter04/DelayItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter04/FastTimeStampParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter04/RecordProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter04/SimpleStatTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter04/StatProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter04/BigFileDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter04/BigFileDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter04/DownloadTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter04/DownloadTask.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -178,6 +179,7 @@
       <workItem from="1568176136790" duration="599000" />
       <workItem from="1568203084663" duration="9570000" />
       <workItem from="1568594518064" duration="4772000" />
+      <workItem from="1568766612676" duration="4333000" />
     </task>
     <servers />
   </component>
@@ -196,5 +198,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/k/multithread/chapter04/SimpleStatTask.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
