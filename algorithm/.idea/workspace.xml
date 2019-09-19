@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42459f79-e887-4b03-8f63-a87caf624bbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/AlarmAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/TimeoutWaitExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter04/LogReaderThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter04/LogReaderThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter04/MultithreadedStatTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter04/MultithreadedStatTask.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
