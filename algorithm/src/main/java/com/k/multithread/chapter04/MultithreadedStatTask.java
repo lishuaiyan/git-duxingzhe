@@ -33,6 +33,24 @@ public class MultithreadedStatTask extends AbstractStatTask {
     }
     @Override
     protected void doCalculate() throws IOException, InterruptedException {
-        final AbstractLogReader
+        final AbstractLogReader logReaderThread = createLogReader();
+        //启动工作者线程
+        logReaderThread.start();
+        RecordSet recordSet;
+        String record;
+        for (;;) {
+            recordSet = logReaderThread.nextBatch();
+            if (null == recordSet) {
+                break;
+            }
+            while (null != (record = recordSet.nextRecord())) {
+                //实例变量recordProcessor是在AbstractStatTask中定义的
+                recordProcessor.process(record);
+            }
+        }// for循环结束
+    }
+    protected AbstractLogReader createLogReader() {
+        AbstractLogReader logReader = new LogReaderThread(in, inputBufferSize, batchSize);
+        return logReader;
     }
 }
