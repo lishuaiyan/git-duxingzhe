@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42459f79-e887-4b03-8f63-a87caf624bbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/TimeoutWaitExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/AbstractService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/ConditionUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/CountDownLatchExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/SampleServiceA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/SampleServiceB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/SampleServiceC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/ServerStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/ServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/TimeoutWaitWithCondition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -81,13 +90,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CASBasedCounter">
+  <component name="RunManager" selected="Application.CountDownLatchExample">
     <configuration name="CASBasedCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.k.multithread.chapter03.CASBasedCounter" />
       <module name="learning-algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.k.multithread.chapter03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountDownLatchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.k.multithread.chapter05.CountDownLatchExample" />
+      <module name="learning-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.k.multithread.chapter05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,26 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadJoinVisibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.k.multithread.chapter02.ThreadJoinVisibility" />
-      <module name="learning-algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.k.multithread.chapter02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDownLatchExample" />
         <item itemvalue="Application.CASBasedCounter" />
         <item itemvalue="Application.EnumBasedSingletonExample" />
         <item itemvalue="Application.StaticHolderSingleton" />
         <item itemvalue="Application.JITRecorderingDemo" />
-        <item itemvalue="Application.ThreadJoinVisibility" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +187,8 @@
       <workItem from="1568594518064" duration="4772000" />
       <workItem from="1568766612676" duration="4333000" />
       <workItem from="1568848654324" duration="4190000" />
+      <workItem from="1568936419331" duration="4072000" />
+      <workItem from="1568940657203" duration="3728000" />
     </task>
     <servers />
   </component>
