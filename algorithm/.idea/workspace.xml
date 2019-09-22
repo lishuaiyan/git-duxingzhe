@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42459f79-e887-4b03-8f63-a87caf624bbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/AbstractService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/ConditionUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/CountDownLatchExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/SampleServiceA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/SampleServiceB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/SampleServiceC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/ServerStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/ServiceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/TimeoutWaitWithCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/ShootPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,6 +179,7 @@
       <workItem from="1568848654324" duration="4190000" />
       <workItem from="1568936419331" duration="4072000" />
       <workItem from="1568940657203" duration="3728000" />
+      <workItem from="1569045293344" duration="1149000" />
     </task>
     <servers />
   </component>
