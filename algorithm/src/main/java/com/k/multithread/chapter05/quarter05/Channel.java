@@ -1,4 +1,4 @@
-package com.k.multithread.chapter05;
+package com.k.multithread.chapter05.quarter05;
 
 /**
  * 对传输通道的抽象
