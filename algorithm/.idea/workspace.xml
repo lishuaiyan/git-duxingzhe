@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42459f79-e887-4b03-8f63-a87caf624bbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/quarter05/ExchangerBasedLogReaderThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/quarter05/TaskRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/quarter05/TerminatableTaskRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/quarter05/ThreadManagementContextListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/quarter05/ThreadTerminationRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter06/quarter01/JavaMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataStructure/dataStructure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/quarter05/CocurrentRSSReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/quarter05/CocurrentRSSReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/CountDownLatchExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/CountDownLatchExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/quarter05/TerminatableTaskRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/quarter05/TerminatableTaskRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/quarter05/ThreadManagementContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/quarter05/ThreadManagementContextListener.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +22,20 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountDownLatchExample">
+  <component name="RunManager" selected="Application.JavaMemory">
     <configuration name="CASBasedCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.k.multithread.chapter03.CASBasedCounter" />
       <module name="learning-algorithm" />
@@ -126,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JITRecorderingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.k.multithread.chapter02.JITRecorderingDemo" />
+    <configuration name="JavaMemory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.k.multithread.chapter06.quarter01.JavaMemory" />
       <module name="learning-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.k.multithread.chapter02.*" />
+          <option name="PATTERN" value="com.k.multithread.chapter06.quarter01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaMemory" />
         <item itemvalue="Application.CountDownLatchExample" />
         <item itemvalue="Application.CASBasedCounter" />
         <item itemvalue="Application.EnumBasedSingletonExample" />
         <item itemvalue="Application.StaticHolderSingleton" />
-        <item itemvalue="Application.JITRecorderingDemo" />
       </list>
     </recent_temporary>
   </component>
