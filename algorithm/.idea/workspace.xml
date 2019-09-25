@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42459f79-e887-4b03-8f63-a87caf624bbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter06/quarter01/JavaMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter06/quarter02/BrokenStatelessObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter06/quarter02/DefaultEndpointComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter06/quarter02/EndpointView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter06/quarter03/AbstractLoadBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter06/quarter03/BigImmutableObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter06/quarter03/Candidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter06/quarter04/ServletWithThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter06/quarter04/ThreadSpecificSecureRandom.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dataStructure/dataStructure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataStructure/src/main/java/queue/BlockingQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataStructure/src/main/java/set/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataStructure/src/main/java/set/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataStructure/src/main/java/set/Demo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataStructure/src/main/java/set/Demo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataStructure/src/main/java/set/Demo6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/CountDownLatchExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/CountDownLatchExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/quarter05/TerminatableTaskRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/quarter05/TerminatableTaskRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/quarter05/ThreadManagementContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter05/quarter05/ThreadManagementContextListener.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +52,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -207,6 +218,7 @@
       <workItem from="1569195421838" duration="1745000" />
       <workItem from="1569197323554" duration="81000" />
       <workItem from="1569197426661" duration="9393000" />
+      <workItem from="1569375909004" duration="10632000" />
     </task>
     <servers />
   </component>
