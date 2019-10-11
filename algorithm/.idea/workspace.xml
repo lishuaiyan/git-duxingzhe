@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42459f79-e887-4b03-8f63-a87caf624bbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/AbstractPhilosopher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/BuggyLckBasedPhilosopher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/CaseRunner7_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/Chopstick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/ConfigEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/ConfigurationHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/ConfigurationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/DeadlockingPhilosopher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/DiningPhilosopherProplem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/FixedLockBasedPhilosopher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/FixedPhilosopher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/GlobalLckBasedPhilosopher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/Philosopher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataStructure/dataStructure.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataStructure/src/main/java/queue/BlockingQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataStructure/src/main/java/set/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataStructure/src/main/java/set/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataStructure/src/main/java/set/Demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataStructure/src/main/java/set/Demo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataStructure/src/main/java/set/Demo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/ConfigurationManagerV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter06/quarter04/ThreadLocalCleanupFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter06/quarter04/ThreadLocalCleanupFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter06/quarter04/ThreadLocalMemoryLeak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter06/quarter04/ThreadLocalMemoryLeak.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -233,6 +206,8 @@
       <workItem from="1569811230581" duration="7487000" />
       <workItem from="1569913953023" duration="4000" />
       <workItem from="1570749706937" duration="5842000" />
+      <workItem from="1570800180310" duration="2420000" />
+      <workItem from="1570804841037" duration="547000" />
     </task>
     <servers />
   </component>
