@@ -2,6 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42459f79-e887-4b03-8f63-a87caf624bbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/AbstractPhilosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/BuggyLckBasedPhilosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/CaseRunner7_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/Chopstick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/ConfigEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/ConfigurationHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/ConfigurationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/DeadlockingPhilosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/DiningPhilosopherProplem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/FixedLockBasedPhilosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/FixedPhilosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/GlobalLckBasedPhilosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter07/quarter01/Philosopher.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dataStructure/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
@@ -15,8 +29,9 @@
       <change afterPath="$PROJECT_DIR$/../dataStructure/src/main/java/set/Demo3.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dataStructure/src/main/java/set/Demo5.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dataStructure/src/main/java/set/Demo6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter06/quarter04/ThreadLocalCleanupFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter06/quarter04/ThreadLocalCleanupFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter06/quarter04/ThreadLocalMemoryLeak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/k/multithread/chapter06/quarter04/ThreadLocalMemoryLeak.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +59,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -87,13 +102,13 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="J:\algorithm\src\com\k\algorithm\chapter01" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="J:\GIT\multithread\git-duxingzhe\algorithm\src\main\java\com\k\multithread\chapter03" />
       <recent name="D:\work\9E\git\git-duxingzhe\algorithm\src\main\java\com\k\algorithm\chapter01" />
       <recent name="D:\work\9E\git\git-duxingzhe\algorithm\src\main\java\com\k\multithread\util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="J:\algorithm\src\com\k\algorithm\chapter01" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -108,7 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JavaMemory">
+  <component name="RunManager" selected="Application.DiningPhilosopherProplem">
     <configuration name="CASBasedCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.k.multithread.chapter03.CASBasedCounter" />
       <module name="learning-algorithm" />
@@ -128,6 +143,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.k.multithread.chapter05.quarter05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiningPhilosopherProplem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.k.multithread.chapter07.quarter01.DiningPhilosopherProplem" />
+      <module name="learning-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.k.multithread.chapter07.quarter01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,26 +189,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticHolderSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.k.multithread.chapter03.StaticHolderSingleton" />
-      <module name="learning-algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.k.multithread.chapter03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DiningPhilosopherProplem" />
         <item itemvalue="Application.JavaMemory" />
         <item itemvalue="Application.CountDownLatchExample" />
         <item itemvalue="Application.CASBasedCounter" />
         <item itemvalue="Application.EnumBasedSingletonExample" />
-        <item itemvalue="Application.StaticHolderSingleton" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +230,9 @@
       <workItem from="1569417964979" duration="143000" />
       <workItem from="1569418165599" duration="1896000" />
       <workItem from="1569453389182" duration="2117000" />
+      <workItem from="1569811230581" duration="7487000" />
+      <workItem from="1569913953023" duration="4000" />
+      <workItem from="1570749706937" duration="5842000" />
     </task>
     <servers />
   </component>
